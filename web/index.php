@@ -23,7 +23,6 @@ if((isset($_REQUEST['debug']) && $_REQUEST['debug'] == DEBUG_OPEN) || (isset($_C
 if(IS_DEBUG){
     require_once ROOT_PATH . 'lib/Third/FirePHP/FirePHP.class.php';
     require_once ROOT_PATH . 'lib/Third/FirePHP/Fb.php';
-    ob_start();    
     include_once ROOT_PATH . 'lib/Function/Func.debug.php';
 }
 
