@@ -1,0 +1,40 @@
+2016-01-11 17:23:58： array (
+  'apply_type' => 'notify',
+  'apply_key' => '6UdSInEn2fgW5RJfb9ScZH3v0m/BqDBce75ckWwPrYruW8dCjujBXs+AR4wTwTDrMgaNsl4jKZA=',
+  'apply_timestamp' => '2016-01-11 17:20:01',
+  'apply_message' => 
+  array (
+    'type' => 'ALL',
+    'sendtype' => 'Listcast',
+    'param' => 
+    array (
+      'userid' => 'b97dc389-9b8f-458a-a89b-2eab1538fb34',
+      'title' => 'mplife  ceshi',
+      'text' => 'mplife  ceshi',
+      'desc' => 'mplife  ceshi',
+      'openapp' => 'mpbuy',
+      'opentype' => 'index',
+      'openparam' => '{"frid":"","city":"sh"}',
+    ),
+  ),
+)
+2016-01-11 17:33:33： array (
+  'apply_type' => 'notify',
+  'apply_key' => '6UdSInEn2fgW5RJfb9ScZH3v0m/BqDBce75ckWwPrYruW8dCjujBXs+AR4wTwTDrMgaNsl4jKZA=',
+  'apply_timestamp' => '2016-01-11 17:20:01',
+  'apply_message' => 
+  array (
+    'type' => 'ALL',
+    'sendtype' => 'Listcast',
+    'param' => 
+    array (
+      'userid' => 'b97dc389-9b8f-458a-a89b-2eab1538fb34',
+      'title' => '小耿',
+      'text' => '小耿',
+      'desc' => '小耿',
+      'openapp' => 'mpbuy',
+      'opentype' => 'index',
+      'openparam' => '{"frid":"","city":"sh"}',
+    ),
+  ),
+)

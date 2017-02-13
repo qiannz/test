@@ -1,0 +1,20 @@
+2016-01-12 10:17:35： array (
+  'apply_type' => 'notify',
+  'apply_key' => 'yTB3Q8zZWl1cN4/cSurUmCQUmI2sOSiN9PYqugLY8nOjEDrZE6yWou2oVHgfZ5NT2jsYKVEZ9vs=',
+  'apply_timestamp' => '2016-01-12 10:17:24',
+  'apply_message' => 
+  array (
+    'type' => 'ALL',
+    'sendtype' => 'Broadcast',
+    'param' => 
+    array (
+      'userid' => '',
+      'title' => NULL,
+      'text' => NULL,
+      'desc' => NULL,
+      'openapp' => 'mpbuy',
+      'opentype' => 'system',
+      'openparam' => '{"frid":"","city":null}',
+    ),
+  ),
+)'{"PostMessageResult":"{\'returncode\':100,\'returnmessage\':\'缺少必要的参数【Title】\',\'total\':0,\'result\':null}"}'

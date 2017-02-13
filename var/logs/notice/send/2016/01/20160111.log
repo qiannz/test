@@ -1,0 +1,40 @@
+2016-01-11 17:23:58： array (
+  'apply_type' => 'notify',
+  'apply_key' => 'yTB3Q8zZWl1cN4/cSurUmCQUmI2sOSiN9PYqugLY8nOjEDrZE6yWopA7SN7J5ZWKpq99+u5TGxE=',
+  'apply_timestamp' => '2016-01-11 17:23:58',
+  'apply_message' => 
+  array (
+    'type' => 'ALL',
+    'sendtype' => 'Broadcast',
+    'param' => 
+    array (
+      'userid' => '',
+      'title' => NULL,
+      'text' => NULL,
+      'desc' => NULL,
+      'openapp' => 'mpbuy',
+      'opentype' => 'system',
+      'openparam' => '{"frid":"","city":null}',
+    ),
+  ),
+)
+2016-01-11 17:33:33： array (
+  'apply_type' => 'notify',
+  'apply_key' => 'yTB3Q8zZWl1cN4/cSurUmCQUmI2sOSiN9PYqugLY8nOjEDrZE6yWooQ6c5cO5go9YGSJ+ewv5sk=',
+  'apply_timestamp' => '2016-01-11 17:33:33',
+  'apply_message' => 
+  array (
+    'type' => 'ALL',
+    'sendtype' => 'Broadcast',
+    'param' => 
+    array (
+      'userid' => '',
+      'title' => NULL,
+      'text' => NULL,
+      'desc' => NULL,
+      'openapp' => 'mpbuy',
+      'opentype' => 'system',
+      'openparam' => '{"frid":"","city":null}',
+    ),
+  ),
+)

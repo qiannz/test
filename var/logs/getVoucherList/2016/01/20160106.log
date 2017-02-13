@@ -1,0 +1,12 @@
+2016-01-06 17:34:38： array (
+  'm' => 'api',
+  'c' => 'index',
+  'act' => 'get-voucher-list',
+  'mobile' => '15000692900',
+)
+2016-01-06 17:34:46： array (
+  'm' => 'api',
+  'c' => 'index',
+  'act' => 'get-voucher-list',
+  'mobile' => '15000692900',
+)

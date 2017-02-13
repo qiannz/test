@@ -1,0 +1,122 @@
+/* CSS Document */
+.clearfix:after { content: "\20"; display: block; height: 0; clear: both; visibility:hidden; }
+.clearfix { display: inline-block; } /* Hides from IE-mac\*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; } /* End hide from IE-mac*/
+
+.info .list-box{
+	height:32px ;
+	margin-top: 20px;
+	line-height: 32px; display:block; vertical-align:middle;
+}
+.info .imgBtn{
+	width:137px;
+	height:26px;
+	background-position:0 0;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	cursor:pointer;
+	overflow: hidden;
+}
+.info .imgBtn .file{
+	width:121px;
+	height:32px;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	cursor:pointer;
+}
+.swfupload{
+	width:121px;
+	height:32px;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	cursor:pointer;
+}
+.info .loadBar{
+	float: left;
+	width: 85px;
+	height: 15px;
+	background-color: #c0c0c0;
+	margin: 8px 0 0 10px;
+	position: relative;
+}
+.info .loadBar em{
+	position: absolute;
+	height: 15px;
+	background-color: #e91748;
+}
+.info .imgBox{
+	margin-top: 20px;
+	background-color: #fff;
+	padding-bottom: 20px;
+	border: 1px solid #cbcbcb;
+	position: relative;
+}
+.info .imgBox .img{
+	border: 1px solid #cbcbcb;
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #fff;
+}
+.info .imgBox li{
+	width: 162px;
+	float: left;
+	display: inline;
+	margin:  20px 0 0 30px;
+	line-height: 30px;
+}
+.info .imgBox .allAdd{
+	width: 75px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #ff5079;
+	margin: 0 auto;
+}
+.info .imgBox .allAdd a:link,.postCont .imgBox .allAdd a:visited{
+	color: #fff;
+}
+.info .imgBox .del{
+	float: right;
+}
+.info .imgBox .ck{
+	margin-top:6px;
+	float: left;
+}
+.info .exp{
+	float: left;
+	padding-left: 10px;
+	color: #999;
+}
+
+.info a:link, .info a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+.imgBox .firstAdd{
+	width: 75px;
+	height: 26px;
+	margin-top:5px;
+	margin-left:30px;
+	padding-left: 20px;
+	line-height: 26px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #ff5079;
+}

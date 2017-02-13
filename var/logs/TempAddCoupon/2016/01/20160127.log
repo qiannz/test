@@ -1,0 +1,15 @@
+2016-01-27 12:27:10： array (
+  'jsonData' => '{"AppName":"buy20160127","AppRemark":"\\u540d\\u54c1\\u8d2d\\u51cf100\\u6d3b\\u52a8\\u5238","CouponType":1,"Mobile":"15000692900","SetId":"58629c5a-42f3-4943-b5cb-07e3fd42c4a5"}',
+)stdClass::__set_state(array(
+   'TempAddCouponResult' => '[{"code":"1","message":[{"Name":"名品购减100活动券","Code":"GTXYVDMMBE","StartTime":"2016-01-27T12:22:57.15625+08:00","StartTimeStr":"2016-01-27 12:22:57","ValidTime":"2016-01-30T23:59:59+08:00","ValidTimeStr":"2016-01-30 23:59:59","Status":0,"UseLimit":1,"UseLimitText":"满￥101.00元使用、限 手机客户端 使用、本券可以使用1次","MinPrice":101.0,"Price":100.0,"Mobile":"15000692900","BindName":"","CanWeb":false,"CanWap":false,"CanApp":true,"Expire":false,"UsedTimeStr":"","Type":1,"GetTime":"2016-01-27T12:22:57.15625+08:00","GetTimeStr":"2016-01-27 12:22:57"}]}]',
+))
+2016-01-27 16:41:56： array (
+  'jsonData' => '{"AppName":"buy20160127","AppRemark":"\\u540d\\u54c1\\u8d2d\\u51cf100\\u6d3b\\u52a8\\u5238","CouponType":1,"Mobile":"15000692900","SetId":"58629c5a-42f3-4943-b5cb-07e3fd42c4a5"}',
+)stdClass::__set_state(array(
+   'TempAddCouponResult' => '[{"code":"1","message":[{"Name":"名品购减100活动券","Code":"ADJYTNKXC5","StartTime":"2016-01-27T16:37:42.265625+08:00","StartTimeStr":"2016-01-27 16:37:42","ValidTime":"2016-01-30T23:59:59+08:00","ValidTimeStr":"2016-01-30 23:59:59","Status":0,"UseLimit":1,"UseLimitText":"满￥101.00元使用、限 手机客户端 使用、本券可以使用1次","MinPrice":101.0,"Price":100.0,"Mobile":"15000692900","BindName":"","CanWeb":false,"CanWap":false,"CanApp":true,"Expire":false,"UsedTimeStr":"","Type":1,"GetTime":"2016-01-27T16:37:42.265625+08:00","GetTimeStr":"2016-01-27 16:37:42"}]}]',
+))
+2016-01-27 17:14:21： array (
+  'jsonData' => '{"AppName":"buy20160127","AppRemark":"\\u540d\\u54c1\\u8d2d\\u51cf100\\u6d3b\\u52a8\\u5238","CouponType":1,"Mobile":"15000692900","SetId":"58629c5a-42f3-4943-b5cb-07e3fd42c4a5"}',
+)stdClass::__set_state(array(
+   'TempAddCouponResult' => '[{"code":"1","message":[{"Name":"名品购减100活动券","Code":"WMETJQSTJR","StartTime":"2016-01-27T17:10:04.921875+08:00","StartTimeStr":"2016-01-27 17:10:04","ValidTime":"2016-01-30T23:59:59+08:00","ValidTimeStr":"2016-01-30 23:59:59","Status":0,"UseLimit":1,"UseLimitText":"满￥101.00元使用、限 手机客户端 使用、本券可以使用1次","MinPrice":101.0,"Price":100.0,"Mobile":"15000692900","BindName":"","CanWeb":false,"CanWap":false,"CanApp":true,"Expire":false,"UsedTimeStr":"","Type":1,"GetTime":"2016-01-27T17:10:04.921875+08:00","GetTimeStr":"2016-01-27 17:10:04"}]}]',
+))

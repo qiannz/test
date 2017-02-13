@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteRule ^admin/?([a-z-]+)?/?([a-z-]+)?/?(.*)?/?$ index.php?m=admin&c=$1&act=$2&con=$3 [QSA,L]
+
+RewriteRule ^api/?([a-z]+)?/?([a-z-]+)?/?(.*)?/?$ index.php?m=api&c=$1&act=$2 [QSA,L]
+
+RewriteRule ^active/?([a-z]+)?/?([a-z-]+)?/?(.*)?/?$ index.php?m=active&c=$1&act=$2 [QSA,L]
+
+RewriteRule ^home/?([a-z]+)?/?([a-z-]+)?/?(.*)?/?$ index.php?m=home&c=$1&act=$2 [QSA,L]
+
+#ErrorDocument 404 /404/404.html
+</IfModule>

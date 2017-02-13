@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>您要访问的页面不存在-名品导购网-南京分站</title>   
+<style type="text/css">
+.waper{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*公告的外围*/
+.modify-box,.register-box,.f-pwdBox,.error404-box {
+	border: 1px solid #CBCBCB;
+	padding: 20px 30px 30px;
+	background-color: #FAF8F6;
+}
+.modify-box .modify-title ,.register-box .register-title,.f-pwdBox .pwd-title,.error404-box .error-title{
+	height: 35px;
+	position: relative;
+	line-height: 30px;
+	background: url("/images/line.png") 0 bottom no-repeat;
+}
+.modify-box .modify-title h2,.register-box .register-title h2,.f-pwdBox .pwd-title h2,.error404-box .error-title h2{
+	font-family: "microsoft yahei";
+	font-size: 24px;
+	color: #e91748;
+}
+.modify-box .modify-title .en,.register-box .register-title .en,.f-pwdBox .pwd-title .en,.error404-box .error-title .en{
+	font-family: "arial";
+	font-size: 14px;
+	color: #c2c2c2;
+	padding-left: 5px;;
+}
+
+/*404页面*/
+.error404-cont{
+	text-align: center;
+	padding: 20px 0 0;
+}
+.error404-tx{
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	color: #e91748;
+	text-align: center;
+	padding: 20px;
+}
+</style>    
+</head>
+<body>
+<!--内容-->
+<div class="waper-box">
+    <b class="wBg"></b>
+    <!--外围主体-->
+    <div class="waper">
+        <div class="error404-box">
+            <!--头-->
+            <div class="error-title">
+                <h2>出错啦<span class="en">Error</span></h2>
+
+            </div>
+            <!--头end-->
+            <p class="error404-cont">
+                <img src="/images/404.jpg">
+            </p>
+            <p class="error404-tx">很抱歉，您要访问的页面不存在，<em id="dateTime">5</em> 秒后自动返回</p>
+        </div>
+        <script type="text/javascript">
+            var time=5;
+            var timeFn;
+            timeFn=setInterval(function(){
+                time--;
+				document.getElementById('dateTime').innerHTML = time;
+                if(time<=0){
+                    clearInterval(timeFn)
+                    window.location.href="/"
+                }
+            },1000)
+        </script>
+    </div>
+    <!--外围主体end-->
+
+
+</div>
+<!--内容end-->
+</body>
+</html>

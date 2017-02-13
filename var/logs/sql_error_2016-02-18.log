@@ -1,0 +1,11 @@
+[2016-02-18 15:56:01] - sql:update `oto_ticket` set total = total + 250 where `ticekt_id` = '139'
+host: 192.168.120.204, dbname: superbuy
+code:[1054] Unknown column 'ticekt_id' in 'where clause'
+1 File:F:\www\mpdev\superbuy\lib\Core\DB\MySQL.php Line:266
+2 File:F:\www\mpdev\superbuy\lib\Core\DB\MySQL.php Line:345
+3 File:F:\www\mpdev\superbuy\app\Model\Admin\Batch.php Line:514
+4 File:F:\www\mpdev\superbuy\app\Model\Admin\Batch.php Line:401
+5 File:F:\www\mpdev\superbuy\app\Controller\Admin\Batch.php Line:58
+6 File:F:\www\mpdev\superbuy\lib\Core\Router.php Line:63
+7 File:F:\www\mpdev\superbuy\web\index.php Line:31
+

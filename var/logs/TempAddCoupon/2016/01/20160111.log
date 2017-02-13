@@ -1,0 +1,19 @@
+2016-01-11 15:02:38： array (
+  'AppName' => 'buy20151019',
+  'AppRemark' => '买现金券送红包',
+  'CouponType' => 1,
+  'Mobile' => '15000692900',
+  'SetId' => '176399DE-9A31-4506-A99F-B258F1038B8E',
+)stdClass::__set_state(array(
+   'TempAddCouponResult' => '[{"code":"-1","message":调用失败}]',
+))
+2016-01-11 15:25:54： array (
+  'jsonData' => '{"AppName":"buy20151019","AppRemark":"\\u4e70\\u73b0\\u91d1\\u5238\\u9001\\u7ea2\\u5305","CouponType":1,"Mobile":"15000692900","SetId":"176399DE-9A31-4506-A99F-B258F1038B8E"}',
+)stdClass::__set_state(array(
+   'TempAddCouponResult' => '[{"code":"0","message":没有找到对应批次的券类型}]',
+))
+2016-01-11 15:26:54： array (
+  'jsonData' => '{"AppName":"buy20151019","AppRemark":"\\u4e70\\u73b0\\u91d1\\u5238\\u9001\\u7ea2\\u5305","CouponType":1,"Mobile":"15000692900","SetId":"176399DE-9A31-4506-A99F-B258F1038B8E"}',
+)stdClass::__set_state(array(
+   'TempAddCouponResult' => '[{"code":"1","message":[{"Name":"APP购物送红包活动-201510","Code":"QXFVXRVJVR","StartTime":"2016-01-11T15:22:56.953125+08:00","StartTimeStr":"2016-01-11 15:22:56","ValidTime":"2016-01-24T23:59:59+08:00","ValidTimeStr":"2016-01-24 23:59:59","Status":0,"UseLimit":1,"UseLimitText":"限 手机客户端 使用、本券可以使用1次","MinPrice":0.0,"Price":5.0,"Mobile":"15000692900","BindName":"","CanWeb":false,"CanWap":false,"CanApp":true,"Expire":false,"UsedTimeStr":"","Type":1,"GetTime":"2016-01-11T15:22:56.953125+08:00","GetTimeStr":"2016-01-11 15:22:56"}]}]',
+))

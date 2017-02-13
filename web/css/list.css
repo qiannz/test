@@ -1,0 +1,41 @@
+@charset "utf-8";
+	.bulletin{ margin-top:23px;color:#333; padding-left:10px; font-family:"SimSun"}
+		.bulletin strong{ font-weight:bold; color:#ab0404; padding-right:5px}
+	.listTit{font-size:20px; border-bottom:1px solid #555;color:#d30202; margin:0 10px 12px;  position:relative; z-index:1;padding:0 150px 0 5px;height:30px}
+	.listTit font{ font-weight:normal}
+		.getBtn,.FriendsBtn{ position:absolute;top:-10px;right:2px;width:110px;height:35px;line-height:35px;border:1px solid #ff8533; border-bottom:none; border-right-color:#ffc9a5; background:#ff6600; font-size:18px; text-align:center;color:#fff; cursor:pointer;}
+		.FriendsBtn{width:149px; font-size:14px; font-weight:bold}
+	.allGoods{ margin-top:34px}
+		.sort{ font-size:12px; font-family:"SimSun"; margin-left:100px;color:#b9b9b9}
+		.sort a{color:#666; padding:0 6px;}
+		.sort .sel{color:#d30202}
+		.waterfallList{ position:relative;z-index:1; margin-left:10px}
+		#waterfall li{position:absolute; margin:0; height:auto; border:1px solid #dadada;}
+		 #waterfall .pic{ background:#fafafa}
+		#waterfall .loading{ font-size:14px; text-align:center;color:#333}
+		.wrap-left,.wrap-right{ float:left;_display:inline}
+		.wrap-left{width:946px;}
+		.wrap-right{width:218px; border:1px solid #cbcbcb; margin-left:14px; margin-top:10px}
+		.wrap-right-box{ border:1px solid #fff; background:#e6e6e6; padding:0 3px 3px;}
+		.wrap-right-title{ line-height:30px; font-size:16px; padding-left:9px;}
+		.wrap-right-con{ background:#fff; }
+		.wrap-right-con-tit,.wrap-right-con-titfont{font-family:"SimSun"; font-size:12px; font-weight:bold; padding-left:14px; line-height:37px;}
+		.wrap-right-con-titfont{color:#333}
+		.wrap-right-address,.traffic{ line-height:28px; padding-left:14px;color:#666; }
+		.look-map{width:184px;height:40px; line-height:40px; background:#fc4243;color:#fff; text-align:center; display:block; font-size:14px; color:#fff;font-family:"SimSun"; margin-top:10px;}
+		.wrap-right-address a{color:#666}
+		.new-pic,.wrap-right-address,.traffic{ border-bottom:1px solid #e6e6e6; padding-bottom:12px;}
+		.new-pic{ text-align:center; padding:0 25px 12px; }
+		.new-pic img{ vertical-align:top; border:1px solid}
+		.new-pic-txt{ height:31px; line-height:31px; overflow:hidden;color:#333;background:#e6e6e6}
+	.groupMenu{color:#666; margin-top:26px; padding-left:8px; position:relative;z-index:1}
+		.groupMenu p{ margin-bottom:10px; overflow:hidden;zoom:1}
+		.groupMenu b{ font-weight:bold}
+		.groupMenu p span,.groupMenu p b{ float:left}
+		.groupMenu p span{width:910px;height:20px; position:relative; overflow:hidden;}
+		.groupMenu p a{color:#666; padding:0 2px ; float:left; margin:0 5px 3px;white-space:nowrap; }
+		.groupMenu p a:hover{ text-decoration: underline}
+		.groupMenu p .selbg{ background:#ab0404;color:#fff;;-moz-transition:all 200ms;-webkit-transition:all 200ms;-o-transition:all 200ms;transition:all 200ms; padding:0 2px;margin:0 5px 3px;}
+		.groupMenu .more{color:#bbb; position:absolute;top:33px;right:155px; line-height:18px; cursor:pointer;}
+		.groupMenu .more s{ background:url(../images/pic.png) no-repeat 0 -578px; width:16px;height:17px; overflow:hidden; display:inline-block;*display:inline;zoom:1; vertical-align:top; margin-left:6px}
+		.groupMenu .more:hover{color:#ab0404}
